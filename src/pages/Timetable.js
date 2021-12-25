@@ -25,11 +25,8 @@ const TabSelector = ({ selector, selected }) => {
   )
   return (
     <Wrapper>
-      <Tab isSelected={selected === '7/22'} onClick={() => selector('7/22')}>
-        <DateText date={lang === 'en' ? '22(Thu)' : '22日(木)'} />
-      </Tab>
-      <Tab isSelected={selected === '7/23'} onClick={() => selector('7/23')}>
-        <DateText date={lang === 'en' ? '23(Fri)' : '23日(金)'} />
+      <Tab isSelected={selected === '12/26'} onClick={() => selector('12/26')}>
+        <DateText date={lang === 'en' ? '26(Sun)' : '26日(日)'} />
       </Tab>
     </Wrapper>
   )
@@ -37,7 +34,7 @@ const TabSelector = ({ selector, selected }) => {
 
 const TimeTable = () => {
   const { t } = useI18n()
-  const [selectedTab, setSelectTab] = useState('7/23')
+  const [selectedTab, setSelectTab] = useState('12/26')
   const [sessionCollection] = useCollection(firebase.collection('session'), collectionOptions)
   const [tagCollection] = useCollection(firebase.collection('tag'), collectionOptions)
   const [adminCollection] = useCollection(firebase.collection('registered'), collectionOptions)

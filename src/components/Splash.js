@@ -122,21 +122,20 @@ export const Splash = () => {
         <Main>
           <AnimTitleMain style={{ lineHeight: '50px'}}>
             <AParagraphMain>
-              <ASpanMain color={KEY_COLORS[keyColorId].primary} isShow={mainAnime} delay={0}>iamas</ASpanMain>
+              <ASpanMain color={KEY_COLORS[keyColorId].primary} isShow={mainAnime} delay={0}>i.frame</ASpanMain>
             </AParagraphMain>
             <AParagraphMain>
-              <ASpanMain isShow={mainAnime} delay={1}>open_house:</ASpanMain>
+              <ASpanMain isShow={mainAnime} delay={1}>os</ASpanMain>
             </AParagraphMain>
             <AParagraphMain>
-              <ASpanMain color={KEY_COLORS[keyColorId].secondary} isShow={mainAnime} delay={2}>2021</ASpanMain>
+              <ASpanMain color={KEY_COLORS[keyColorId].secondary} isShow={mainAnime} delay={2}>demo</ASpanMain>
             </AParagraphMain>
           </AnimTitleMain>
           <Sub>
             <AnimSub isShow={mainAnime} delay={6}>
               <ASpanSub>&lt;meta</ASpanSub>
               <ASpanSub><SpanMdNone>&nbsp;&nbsp;</SpanMdNone>&nbsp;&nbsp;type=&quot;forum&quot;</ASpanSub>
-              <ASpanSub><SpanMdNone>&nbsp;&nbsp;</SpanMdNone>&nbsp;&nbsp;from=&quot;2021-07-22&quot;</ASpanSub>
-              <ASpanSub><SpanMdNone>&nbsp;&nbsp;</SpanMdNone>&nbsp;&nbsp;to=&quot;2021-07-23&quot;&nbsp;<span>/&gt;</span></ASpanSub><br className="hidden md:block" />
+              <ASpanSub><SpanMdNone>&nbsp;&nbsp;</SpanMdNone>&nbsp;&nbsp;on=&quot;2021-12-26&quot;&nbsp;<span>/&gt;</span></ASpanSub><br className="hidden md:block" />
               <ASpanSub>&lt;meta</ASpanSub>
               <ASpanSub><SpanMdNone>&nbsp;&nbsp;</SpanMdNone>&nbsp;&nbsp;platform=&quot;i.frame&quot;&nbsp;<span>/&gt;</span></ASpanSub>
             </AnimSub>

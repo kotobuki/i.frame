@@ -7,7 +7,7 @@ export const i18n = {
       'あなたのアバターは {avatar} です。\n' +
       'アバターを変更するにはクリック／ダブルタップしてください。',
     welcome_notes:
-      'iamas open_house: 2021のイベント会場にお越しいただき、ありがとうございます。\n\n' +
+      'i.frame os demoのイベント会場にお越しいただき、ありがとうございます。\n\n' +
       '本イベント会場では、機能的な目的のためにCookieを、分析的な目的のためにGoogle アナリティクスを使用しています。ただし、個人情報は一切収集せず、ターゲティングや広告の提示は行いません。',
     welcome_check_pp: 'プライバシーポリシーを確認',
     welcome_enter: '会場に入る',
@@ -69,7 +69,7 @@ export const i18n = {
     welcome_avatar:
       'Your avatar is {avatar}.\nTo change your avatar, click/double tap on it.',
     welcome_notes:
-      'Thank you for coming to the event site of iamas open_house 2021.\n\n' +
+      'Thank you for coming to the event site of i.frame os demo.\n\n' +
       'We use cookies for functional purposes and Google Analytics for analytical purposes at this site. However, we won\'t collect any personal information, and we won\'t do any targeting or present any advertisements.',
     welcome_check_pp: 'Check the privacy policy',
     welcome_enter: 'Enter the site',

@@ -11,7 +11,7 @@ export const Head = () => {
   return (
     <Helmet>
       <meta charSet="utf-8" />
-      <title>iamas open_house: 2021</title>
+      <title>i.frame os demo</title>
       <link rel="icon" type="image/png" href={favicon} sizes="16x16" />
     </Helmet>
   )
