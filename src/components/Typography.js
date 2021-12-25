@@ -12,9 +12,9 @@ export const TitleOneLine = ({palletId}) => {
   const id = palletId || 0
   return (
     <Heading2>
-      <SpanPrimary palletId={id}>iamas&nbsp;</SpanPrimary>
-      <SpanWhite>open_house:&nbsp;</SpanWhite>
-      <SpanSecondary palletId={id}>2021</SpanSecondary>
+      <SpanPrimary palletId={id}>i.frame&nbsp;</SpanPrimary>
+      <SpanWhite>os&nbsp;</SpanWhite>
+      <SpanSecondary palletId={id}>demo</SpanSecondary>
     </Heading2>
   )
 }
